@@ -59,12 +59,12 @@ body{
 .navbar-container{
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     height: 64px;
     align-items: center;
 }
 
 .menu-items{
-    order: 2;
     display: flex;
 }
 
@@ -75,7 +75,6 @@ body{
 }
 
 .logo{
-    order: 1;
     font-size: 3rem;
 }
 
