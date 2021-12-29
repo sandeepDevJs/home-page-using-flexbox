@@ -252,3 +252,62 @@ body{
     opacity: 1;
     top: 40%;
 }
+
+/* Food Menu */
+
+#food-menu{
+    padding: 5rem 0;
+}
+
+.food-menu-heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #555;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.food-menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food-menu-item{
+    flex-basis: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-image{
+    margin: 14px;
+}
+
+.food-image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-title{
+    font-size: 2.2rem;
+    color: #444;
+    font-weight: 400;
+}
+
+.food-description{
+    margin:auto;
+}
+
+.food-description p{
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.food-price{
+    color: #117964;
+    font-weight: 700;
+}
