@@ -301,13 +301,67 @@ body{
     margin:auto;
 }
 
-.food-description p{
+.food-description:nth-child(2){
     font-size: 1.4rem;
     color: #555;
     font-weight: 500;
 }
 
 .food-price{
-    color: #117964;
     font-weight: 700;
+    color: #117964;
+}
+
+/* testimonials */
+
+#testimonials{
+    padding: 5rem 0;
+    background: rgb(243, 243, 243);
+}
+
+
+.testimonial-title{
+    text-align: center;
+    font-size: 4rem;
+    color: #555;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-box{
+    text-align: center;
+    padding: 1rem;
+}
+
+.star-rating{
+    color: #ff9529;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.testimonial-text{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #555;
+    margin: 1rem 0;
+}
+
+.customer-photo img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.customer-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #555;
+    margin: 1rem 0;
 }
