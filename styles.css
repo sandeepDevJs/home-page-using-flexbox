@@ -529,4 +529,63 @@ textarea {
 	.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 		transform: rotate(-45deg);
 	}
+
+	/* Food category */
+	.food-container{
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.food-type:not(:last-child){
+		margin-bottom: 3rem;
+	}
+
+	.food-type{
+		box-shadow: 5px 5px 10px 0 #aaa;
+	}
+
+	.img-container{
+		margin: 0;
+	}
+}
+
+/* Small Screens */
+
+@media (max-width: 500px) {
+	html{
+		font-size: 50%;
+	}
+
+	.testimonial-container{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.food-menu-item{
+		flex: 1 1;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+
+	.food-menu-container img{
+		margin: auto;
+	}
+
+	/* Contact form */
+
+	.form-container{
+		width: 90%;
+	}
+
+	.contact-container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact-image{
+		width: 90%;
+		margin: 3rem;
+	}
+
 }
