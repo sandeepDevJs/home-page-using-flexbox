@@ -117,6 +117,11 @@ body {
 	text-transform: uppercase;
 }
 
+.showcase-container p{
+	text-align: center;
+	padding: 5px;
+}
+
 /* About Us */
 
 #about {
